@@ -1,4 +1,5 @@
 import React from 'react';
+import Tile1 from './tile1.js';
 
 const randomColor = require('randomcolor');
 
@@ -10,12 +11,7 @@ const Colors = () => {
 
   return (
     <div className="color-grid">
-      <div
-        className="box box-1"
-        style={{
-          backgroundColor: `${color1}`,
-        }}
-      ></div>
+      <Tile1 />
       <div
         className="box box-2"
         style={{
