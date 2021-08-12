@@ -1,11 +1,12 @@
 import './App.css';
-import ShareButtons from './sharebuttons.js';
-import Colors from './colors.js';
+import ShareButtons from './components/shareButtons.js';
+import ColorGrid from './components/colorGrid';
 
 function App() {
   return (
     <div className="App">
-      <Colors />
+      <ColorGrid />
+
       <ShareButtons />
     </div>
   );

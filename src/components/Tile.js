@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 const randomColor = require('randomcolor');
 
-const Tile1 = () => {
+const Tile = () => {
   let [color, setColor] = useState(``);
 
   return (
@@ -21,4 +21,4 @@ const Tile1 = () => {
   );
 };
 
-export default Tile1;
+export default Tile;
