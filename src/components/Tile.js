@@ -2,13 +2,12 @@ import React, { useState } from 'react';
 const randomColor = require('randomcolor');
 
 const Tile = () => {
-  let [color, setColor] = useState(``);
+  const [color, setColor] = useState(randomColor());
 
   return (
     <div className="container">
-      <button onClick={() => setColor((color = randomColor()))}>
-        Get me new colours!
-      </button>
+      <button onClick={() => setColor(randomColor())}>Update</button>
+
       <div className="color-grid">
         <div
           className="box box-1"
