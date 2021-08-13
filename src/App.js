@@ -9,7 +9,9 @@ function App() {
       <h1>Let's colour!</h1>
       <ColorGrid />
       <RefreshButton />
-      <ShareButtons />
+      <div>
+        Share your colours: <ShareButtons />
+      </div>
     </div>
   );
 }
