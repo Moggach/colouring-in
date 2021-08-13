@@ -6,7 +6,7 @@ const Tile = () => {
   const [color, setColor] = useState(randomColor());
 
   return (
-    <div className="container">
+    <div className="tile-container">
       <div
         className="tile"
         style={{

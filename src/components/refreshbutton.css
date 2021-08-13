@@ -8,3 +8,15 @@
   font-size: 1rem;
   border-radius: 10%;
 }
+@media only screen and (min-width: 600px) {
+  .refresh-button > button {
+    padding: 2rem;
+    font-size: 2rem;
+    border-radius: 10%;
+    transition: all 0.3s ease-out;
+  }
+
+  .refresh-button > button:hover {
+    transform: translate(0, -5px);
+  }
+}

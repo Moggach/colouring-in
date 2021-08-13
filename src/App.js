@@ -6,7 +6,7 @@ import RefreshButton from './components/refreshButton.js';
 function App() {
   return (
     <div className="App">
-      <h1>Let's colour!</h1>
+      <h1>Let's colour! 🎨</h1>
       <ColorGrid />
       <RefreshButton />
       <div>
