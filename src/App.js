@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <h1>Let's colour!</h1>
       <ColorGrid />
-      <ShareButtons />
       <RefreshButton />
+      <ShareButtons />
     </div>
   );
 }

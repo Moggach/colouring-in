@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './tile.css';
 const randomColor = require('randomcolor');
 
 const Tile = () => {
@@ -6,16 +7,14 @@ const Tile = () => {
 
   return (
     <div className="container">
-      <button onClick={() => setColor(randomColor())}>Update</button>
+      <div
+        className="tile"
+        style={{
+          backgroundColor: `${color}`,
+        }}
+      ></div>
 
-      <div className="color-grid">
-        <div
-          className="box box-1"
-          style={{
-            backgroundColor: `${color}`,
-          }}
-        ></div>
-      </div>
+      <button onClick={() => setColor(randomColor())}>Update me</button>
     </div>
   );
 };

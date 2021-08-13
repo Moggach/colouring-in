@@ -1,0 +1,10 @@
+.refresh-button {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.refresh-button > button {
+  padding: 1.5rem;
+  font-size: 1rem;
+  border-radius: 10%;
+}

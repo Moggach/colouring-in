@@ -1,4 +1,5 @@
 import React from 'react';
+import './refreshbutton.css';
 
 function RefreshButton() {
   const refreshPage = () => {
@@ -6,8 +7,8 @@ function RefreshButton() {
   };
 
   return (
-    <div>
-      <button onClick={refreshPage}>Send me some colours!</button>
+    <div className="refresh-button">
+      <button onClick={refreshPage}>Send me all new colours!</button>
     </div>
   );
 }

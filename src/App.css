@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&display=swap');
 
 .App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   text-align: center;
+  background-color: rgba(232, 241, 245, 255);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -10,12 +14,7 @@
   font-family: Dosis, sans-serif;
 }
 
-.button {
-  font-size: 3rem;
-}
-
-.box {
-  height: 5rem;
-  width: 5rem;
-  border-radius: 50%;
+h1 {
+  font-size: 2.5rem;
+  color: #ed5874;
 }
