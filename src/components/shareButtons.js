@@ -13,7 +13,7 @@ import {
 
 export default class ShareButtons extends Component {
   render() {
-    const shareUrl = 'https://www.bbc.co.uk/';
+    const shareUrl = 'https://moggach.github.io/colouring-in/';
     return (
       <div>
         <EmailShareButton url={shareUrl} className="icon">
